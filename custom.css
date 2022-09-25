@@ -1,0 +1,107 @@
+/* COMMON CSS */
+a {
+  text-decoration: none !important;
+}
+
+.red {
+  border: 1px solid red;
+}
+
+.blue {
+  border: 1px solid blue;
+}
+
+.ta-r {
+  text-align: right;
+}
+
+.ta-c {
+  text-align: center;
+}
+
+.ta-l {
+  text-align: left;
+}
+
+/* MAIN CSS */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  padding: 20px;
+  height: 500px;
+  background: url("https://harypham97.github.io/template-bootstrap/banner.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.banner .about-signIn {
+  margin-top: 20px;
+}
+
+.banner .about-signIn .about,
+.banner .about-signIn .signIn {
+  padding: 7px 15px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.banner .about-signIn .about {
+  color: black;
+}
+
+.banner .about-signIn .signIn {
+  margin-right: 60px;
+  margin-left: 25px;
+  border: 1px solid #8bc34a;
+  border-radius: 20px;
+  color: #8bc34a;
+}
+
+.banner .logo {
+  margin-top: 80px;
+  height: 77px;
+  background: url(https://harypham97.github.io/template-bootstrap/hapoERP.png) center center no-repeat;
+}
+
+.banner .content-center {
+  margin-top: 40px;
+}
+
+.banner .content-center .icon-left,
+.banner .content-center .icon-center,
+.banner .content-center .icon-right {
+  display: inline-block;
+  width: 20%;
+}
+
+.banner .content-center .icon-left img,
+.banner .content-center .icon-center img,
+.banner .content-center .icon-right img {
+  width: 30px;
+  height: 30px;
+}
+
+.banner .content-center .icon-left span,
+.banner .content-center .icon-center span,
+.banner .content-center .icon-right span {
+  display: block;
+}
+
+.banner .text {
+  margin-top: 40px;
+}
+
+.banner .text span {
+  display: block;
+}
+
+.banner .btn-startNow button {
+  margin-top: 20px;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: 1px solid #8bc34a;
+  cursor: pointer;
+}
